@@ -17,5 +17,6 @@ Imports:
     scoringRules,
     LaplacesDemon
 LinkingTo: Rcpp, RcppArmadillo
-URL: https://hdl.handle.net/1866/41129
+URL: https://github.com/rayanedounas-web/STPPMx
+Remotes: rayanedounas-web/STPPMx
 RoxygenNote: 7.3.2
