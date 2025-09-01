@@ -1,0 +1,21 @@
+Package: STPPMx
+Type: Package
+Title: 
+Version: 1.0
+Date: 2025-09-01
+Author: Rayane Dounas
+Maintainer: Who to complain to <rayane.dounas1@gmail.com>
+Description: Provides functions to run the STPPMx model and associated post-processing models. Many functions are coded in C++ with the help of Rcpp and RcppArmadillo. All the code in  the package were used in the context of my master's thesis academic reasearch published on Papyrus (link and citation in package). If you start reading the code,try to read the thesis at the same time to understand were my function are coming from. Also, if you use the code in any of your work, I would appreciate if you could cite my paper and mention that you used my code!
+License: GPL (>= 3)
+Encoding: UTF-8
+Imports: 
+    MixSim,
+    Rcpp (>= 1.0.14),
+    lubridate,
+    mvtnorm,
+    invgamma,
+    scoringRules,
+    LaplacesDemon
+LinkingTo: Rcpp, RcppArmadillo
+URL: https://hdl.handle.net/1866/41129
+RoxygenNote: 7.3.2
